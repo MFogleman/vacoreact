@@ -59,6 +59,7 @@ class App extends Component {
       return (
         <Box
           key={item[this.state.displayProperty]}
+          id={index}
           boxText={item[this.state.displayProperty]}    
           onClick={() => this.handleClick(index)} 
           displayType={this.state.displayType}
